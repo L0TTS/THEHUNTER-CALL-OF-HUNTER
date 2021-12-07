@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<GridPane xmlns="https://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="controllers.betaController"
+          prefHeight="700.0" prefWidth="700.0">
+
+        <VBox alignment="BASELINE_RIGHT" spacing="80" maxWidth="100">
+            <padding>
+                <Insets top="10" bottom="10" left="600" right="10"/>
+            </padding>
+
+            <children>
+            <Button fx:id="pos1Def"/>
+
+            <Button fx:id="pos2Def"/>
+
+            <Button fx:id="pos3Def"/>
+
+            <Button fx:id="pos4Def"/>
+
+            <Button fx:id="pos5Def"/>
+
+            <Button fx:id="pos6Def"/>
+
+            <Button fx:id="gameBack" text="Назад" onAction="#onClickBack" alignment="CENTER"/>
+            </children>
+        </VBox>
+    <VBox alignment="BASELINE_LEFT" spacing="80" maxWidth="100">
+
+        <padding>
+            <Insets top="10" bottom="10" left="10" right="10"/>
+        </padding>
+
+        <children>
+
+            <Button fx:id="pos1Atck"/>
+
+            <Button fx:id="pos2Atck"/>
+
+            <Button fx:id="pos3Atck"/>
+
+            <Button fx:id="pos4Atck"/>
+
+            <Button fx:id="pos5Atck"/>
+
+            <Button fx:id="pos6Atck"/>
+
+        </children>
+    </VBox>
+</GridPane>
